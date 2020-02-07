@@ -9,6 +9,7 @@ class App < Sinatra::Base
   post '/' do
     @sessions = session
     item = params['item']
+    @sessions
   
   
   configure do
