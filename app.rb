@@ -6,6 +6,9 @@ class App < Sinatra::Base
     erb :index
   end
   
+  post '/' do
+    
+  
   
   configure do
     enable :sessions
